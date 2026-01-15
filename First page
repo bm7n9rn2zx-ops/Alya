@@ -31,8 +31,13 @@
   <p>A simple tool to help you write clearly.</p>
   <textarea placeholder="Write or paste your texte here..."></textarea>
   <button>improve</button>
-  <button>correct</button>
+  <button onclick="correcttext()">correct</button>
   <button>translate</button>
-  <explain>dictate</button>
+  <button>dictate</button>
+<script>
+  function correctext() {
+    alert("correction coming soon 🙃");
+  }
+</script>
 </body>
 </html>
