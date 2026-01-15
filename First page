@@ -8,5 +8,9 @@
   <h1>Alya</h1>
   <p>A simple tool to help you write clearly.</p>
   <textarea placeholder="Write or paste your texte here..."></textarea>
+  <button>improve</button>
+  <button>correct</button>
+  <button>translate</button>
+  <explain>explain</button>
 </body>
 </html>
