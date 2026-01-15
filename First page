@@ -30,13 +30,22 @@
   <h1>Alya</h1>
   <p>A simple tool to help you write clearly.</p>
   <textarea placeholder="Write or paste your texte here..."></textarea>
-  <button>improve</button>
-  <button onclick="correcttext()">correct</button>
-  <button>translate</button>
-  <button>dictate</button>
+  <button onclick="improveTest()">improve</button>
+  <button onclick="correctText()">correct</button>
+  <button onclick="translateText()">translate</button>
+  <button onclick="dictateText()">dictate</button>
 <script>
-  function correctext() {
-    alert("correction coming soon 🙃");
+  function improveText() {
+    alert("Improvement coming soon 🤩");
+  }
+  function correcText() {
+    alert("Correction coming soon 🙃");
+  }
+  function translateText() {
+    alert("translation coming soon 🇫🇷🇬🇧");
+  }
+  function dictateText() {
+    alert("dictation coming soon 🗣️");
   }
 </script>
 </body>
